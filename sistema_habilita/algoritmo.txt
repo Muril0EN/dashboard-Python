@@ -1,0 +1,33 @@
+#avaliação física
+    -> questionário
+        * tempo ininterrupto de treinamento
+        * tempo de destreinamento
+        * experiência prévia de treinamento
+
+    -> testes físicos
+        ->flexibilidade
+             * tornozelo
+                    entrada 2 (1 cada lado)
+                    -> dorsiflexão em graus
+             * quadril
+                    plano frontal
+                    plano sagital
+             * glenoumeral
+                -> distância entre as mãos
+
+        -> força
+            * agachamento
+            * supino
+            * terra
+            * barra fixa
+
+        -> potencia
+            * salto vertical (my jump)
+            * salto horizontal (my jump)
+            * perfil força-velocidade (my jump)
+            * teste de assimetria (my jump)
+            * taxa de desenvolvimento de força
+                tdf = delta F (N) / delta t (m/s)
+
+        -> capacidade cardiorrespiratória
+

@@ -1,11 +1,24 @@
 nome = input("Digite seu nome: ")
 print("Olá", nome)
 
+print("{},qual seu nível de treinamento?".format(nome))
+print("Iniciante -> 1\nIntermediário -> 2\nAvançado -> 3\nAltamente avançado -> 4\n")
+niveDeTreinamento = int(input("Resposta: "))
+
+#defição da carga de treinamento
+if niveDeTreinamento == 1:
+    series_programadas = 10;
+elif niveDeTreinamento == 2:
+    series_programadas = 15
+else:
+    series_programadas = 20
+
 #inputs
-series_programadas = 3;
+#series_programadas = 3;
 series_executadas = 1;
 repeticoes = 0;
 PSE = 0;
+
 
 #variáveis calculadas p/
 carga_media_semanal = 0;
@@ -40,8 +53,5 @@ while (series_executadas <= series_programadas):
     print("Tonelagem final: ", tonelagem_final)
 
     series_executadas = series_executadas + 1;
-#def controle_de_carga(float monotonia, ){
-    #if (monotonia >= 2):
-        #print("Necessidade de aumentar a variação na rotina de treinamento.")
-    #else:
-        #print("Estamos indo bem, não há necessidade de alterações na rotina de treinamento.")
+
+pse = int(input("PSE: "))
