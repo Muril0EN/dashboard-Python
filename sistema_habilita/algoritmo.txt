@@ -1,33 +1,88 @@
 #avaliação física
-    -> questionário
-        * tempo ininterrupto de treinamento
-        * tempo de destreinamento
-        * experiência prévia de treinamento
+    *Recebe dados do questionário.
+        -> Questionário para cálculo do status de treinamento (inptus) 1/3
+            * tempo ininterrupto de treinamento
+            * tempo de destreinamento
+            * experiência prévia de treinamento
 
-    -> testes físicos
-        ->flexibilidade
-             * tornozelo
-                    entrada 2 (1 cada lado)
-                    -> dorsiflexão em graus
-             * quadril
-                    plano frontal
-                    plano sagital
-             * glenoumeral
-                -> distância entre as mãos
+        **score ->
+
+        -> testes físicos
+            ->flexibilidade
+                 * tornozelo
+                        entrada 2 (1 cada lado)
+                        -> dorsiflexão em graus
+                 **score -> molidade < 45 graus = reduzida SE NÃO = normal
+
+                 * quadril
+                        plano frontal
+                        plano sagital
+                        **score -> mobilidade > 65 graus -> normal SE NÃO falta de mobilidade
+
+                 * glenoumeral
+                    -> distância entre as mãos direita
+                    -> distância entre as mãos esquerda
+                    **score -> se diferença maior que 1.5 o tamanho -> deficit de mobilidade SE NÃO mobilidade normal
+                    ** se diferenças, entre os lados, forem maiores que 5cm -> assimentria importante SE NÃo assimetria normal
+
+                 * Core
+                    * prancha ventral;
+                    * prancha lateral (direita);
+                    * prancha lateral (esquerda);
+                    * extensão da coluna;
+                 **scores -> t > 20 = fraco / t < 40 = regular / t < 60 = bom / t < 80 = muito bom / t > 80 = excelente
+
+        -> Parte II para o cálculo de status de treinamento
+            -> força (rm) 2/3
+                * agachamento
+                * supino
+                * terra
+                * barra fixa
+            *calcula força relativa (rm / peso corporal) e corre a matriz de referência p/ cada um dos testes
+
+            -> força (técnica) 3/3 **pesquisar
+                * agachamento
+                * supino
+                * terra
+                * barra fixa
+
+    *Calcula status de treinamento (Soma os inputs do questionário com a média da avaliação de força e a média da técnica e tira a média final)
+
+            -> potencia (recebe valores exportados do app myJump)
+                * salto vertical (my jump)
+                * salto horizontal (my jump)
+                * perfil força-velocidade (my jump)
+                * teste de assimetria (my jump)
+                * taxa de desenvolvimento de força
+
+            -> capacidade cardiorrespiratória
+                * loop (cada estário)
+                    * recebe velocidade
+                    * frequencia cardíaca
+                    * PSE
+                * identifica ponto de deflexão
+
+    *Saída
+        -> Flexibilidade
+            * tornozelo;
+            * quadril;
+            * ombro;
+
+        -> Core
+            * prancha ventral;
+            * prancha lateral (direita);
+            * prancha lateral (esquerda);
+            * extensão da coluna;
 
         -> força
-            * agachamento
-            * supino
-            * terra
-            * barra fixa
+            * agachamento;
+            * supino;
+            * terra;
+            * barra;
 
-        -> potencia
-            * salto vertical (my jump)
-            * salto horizontal (my jump)
-            * perfil força-velocidade (my jump)
-            * teste de assimetria (my jump)
-            * taxa de desenvolvimento de força
-                tdf = delta F (N) / delta t (m/s)
+        -> Potência
+            * salto vertical
 
-        -> capacidade cardiorrespiratória
+        -> Capacidade cardiorrespiratória
 
+        **** página de resumo ****
