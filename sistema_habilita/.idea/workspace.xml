@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25cab376-8ca4-4b95-8d9a-c54f6de30a50" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../jogos/forca.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jogos/jogos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/avaliacao_main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sistema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabelaReferencia. txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testes_fisicos.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../advinhacao.py" beforeDir="false" afterPath="$PROJECT_DIR$/../advinhacao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algoritmo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/algoritmo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/avaliacao.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jogos/adivinhação.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sessãoDeTreinamento.py" beforeDir="false" afterPath="$PROJECT_DIR$/sessãoDeTreinamento.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogos/adivinhação.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jogos/adivinhação.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogos/forca.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jogos/forca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogos/jogos.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jogos/jogos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avaliacao_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/avaliacao_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testes_fisicos.py" beforeDir="false" afterPath="$PROJECT_DIR$/testes_fisicos.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +34,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/pacificsentinelese/Documentos/desafiosDeProgramacao/desafiosPython/jogos"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/pacificsentinelese/Documentos/desafiosDeProgramacao/desafiosPython/jogos&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.avaliacao_main">
     <configuration name="avaliacao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="sistema_habilita" />
