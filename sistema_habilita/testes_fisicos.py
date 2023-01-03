@@ -1,5 +1,6 @@
 
-#def calcula_status_treinamento_forca (tempo_ininterrupto_treinamento, experiencia_treinamento, tempo_destreinamento, ):
+#def calcula_status_treinamento_forca (tempo_ininterrupto_treinamento, experiencia_treinamento, tempo_destreinamento, media_status_forca):
+
 
 def calcula_forca_relativa(rm, peso_corporal):
     forca_relativa = rm / peso_corporal

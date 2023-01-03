@@ -92,7 +92,8 @@ status_barra = testes_fisicos.classifica_status_forca(forca_relativa_barra, barr
 #media_tecnica = (tecnica_agachamento + tecnica_supino + tecnica_terra + tecnica_barra) / 4
 #print("Nível técnica: {}".format(media_tecnica)
 print("\n\n")
-
+#media_status_forca = (status_agachamento + status_supino + status_terra + status_barra) / 4
+#status_geral_treinamento_forca = (tempo_ininterrupto_treinamento_atual, experiencia_treinamento, tempo_destreinamento, media_status_forca) / 4
 
 #saida
 print("******************************")
@@ -121,13 +122,13 @@ print("Prancha lateral (esquerdo): {} | score: {}".format(tempo_prancha_lateral_
 print("Referência: tempo < 20s = fraco | tempo < 40s = regular | tempo < 60 = bom | \ntempo < 80 = muito bom | tempo > 80s = excelente.")
 print("\n")
 print("Força muscular")
-print("Status de força geral: ")
+#print("Status de força geral: {:.2f}".format(status_geral_treinamento_forca))
 print("\nStatus por padrão de movimento.")
 print("Agachamento")
-print("RM: {}  Força relativa: {}  Status: {}".format(rm_agachamento, forca_relativa_agachamento, status_agachamento))
+print("RM: {}  Força relativa: {:.2f}  Status: {}".format(rm_agachamento, forca_relativa_agachamento, status_agachamento))
 print("Supino")
-print("RM: {}  Força relativa: {}  Status: {}".format(rm_supino, forca_relativa_supino, status_supino))
+print("RM: {}  Força relativa: {:.2f}  Status: {}".format(rm_supino, forca_relativa_supino, status_supino))
 print("Levantamento terra")
-print("RM: {}  Força relativa: {}  Status: {}".format(rm_terra, forca_relativa_terra, status_terra))
+print("RM: {}  Força relativa: {:.2f}  Status: {}".format(rm_terra, forca_relativa_terra, status_terra))
 print("Barra fixa")
-print("RM: {}  Força relativa: {}  Status: {}".format(rm_barra_fixa, forca_relativa_barra, status_barra))
+print("RM: {}  Força relativa: {:.2f}  Status: {}".format(rm_barra_fixa, forca_relativa_barra, status_barra))
