@@ -1,41 +1,42 @@
 print("Nível de treinamento?")
 print("Iniciante -> 1\nIntermediário -> 2\nAvançado -> 3\nAltamente avançado -> 4\n")
-niveDeTreinamento = int(input("Resposta: "))
+nivel_de_treinamento = int(input("Resposta: "))
 
-def calculaSeries ():
-        if niveDeTreinamento == 1:
-            series_programadas = 10
-        elif niveDeTreinamento == 2:
-            series_programadas = 15
-        else:
-            series_programadas = 20
-        return series_programadas
+def calculaSeries (nivel_de_treinamento):
+    if nivel_de_treinamento == 1:
+       series_programadas = 10
+    elif nivel_de_treinamento == 2:
+        series_programadas = 15
+    else:
+        series_programadas = 20
+    return series_programadas
 
-    peso = 0;
-    tonelagem = 0;
-    tonelagem = 0;
+series_executadas = 1
+repeticoes_final = 0
+tonelagem_final = 0
 
-    repeticoes_final = 0
-    tonelagem_final = 0
+while(series_executadas <= calculaSeries(nivel_de_treinamento)):
 
-    while (series_executadas <= series_programadas):
+    print("\nSérie {} de {}.".format(series_executadas, calculaSeries(nivel_de_treinamento)))
+    peso = float(input("Peso: "))
+    repeticoes = int(input("Repetições: "))
+    tonelagem = peso * repeticoes
 
-        print("\nSérie {} de {}.".format(series_executadas, series_programadas))
-        peso = float(input("Peso: "))
-        repeticoes = float(input("Repetições: "))
-        tonelagem = peso * repeticoes
+    repeticoes_final += repeticoes
+    tonelagem_final += tonelagem
 
-        repeticoes_final = repeticoes_final + repeticoes
-        tonelagem_final = tonelagem_final + tonelagem
+    print(" ** Resumo da série ** ")
+    print("Repetições: {}".format(repeticoes))
+    print("Tonelagem da série: {}".format(tonelagem))
+    print("\n")
+    print(" ** Resumo do treino ** ")
+    print("Repetições final: {}".format(repeticoes_final))
+    print("Tonelagem final: {}".format(tonelagem_final))
 
-        print(" ** Resumo da série ** ")
-        print("Repetições: ", repeticoes)
-        print("Tonelagem da série: ", tonelagem)
-        print("\n")
-        print(" ** Resumo do treino ** ")
-        print("Repetições final: ", repeticoes_final)
-        print("Tonelagem final: ", tonelagem_final)
+    series_executadas += 1
 
-        series_executadas = series_executadas + 1;
+calculaSeries(nivel_de_treinamento)
+pse = int(input("PSE: "))
 
-    pse = int(input("PSE: "))
+#if(__name__ == "__main__"):
+#revisar esse comando...

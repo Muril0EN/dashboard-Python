@@ -76,7 +76,7 @@ rm_barra_fixa = float(input("RM na barra fixa: "))
 #classifica niveis de força
 forca_relativa_agachamento = testes_fisicos.calcula_forca_relativa(rm_agachamento, peso_corporal)
 forca_relativa_supino = testes_fisicos.calcula_forca_relativa(rm_supino, peso_corporal)
-forca_relativa_terra = testes_fisicos.calcula_forca_relativa(rm_terra,peso_corporal)
+forca_relativa_terra = testes_fisicos.calcula_forca_relativa(rm_terra, peso_corporal)
 forca_relativa_barra = testes_fisicos.calcula_forca_relativa(rm_barra_fixa, peso_corporal)
 
 #******************** teste força relativa ******************
