@@ -2,7 +2,7 @@ print("Nível de treinamento?")
 print("Iniciante -> 1\nIntermediário -> 2\nAvançado -> 3\nAltamente avançado -> 4\n")
 nivel_de_treinamento = int(input("Resposta: "))
 
-def calculaSeries (nivel_de_treinamento):
+def define_qtd_series (nivel_de_treinamento):
     if nivel_de_treinamento == 1:
        series_programadas = 10
     elif nivel_de_treinamento == 2:
@@ -15,9 +15,9 @@ series_executadas = 1
 repeticoes_final = 0
 tonelagem_final = 0
 
-while(series_executadas <= calculaSeries(nivel_de_treinamento)):
+while(series_executadas <= define_qtd_series(nivel_de_treinamento)):
 
-    print("\nSérie {} de {}.".format(series_executadas, calculaSeries(nivel_de_treinamento)))
+    print("\nSérie {} de {}.".format(series_executadas, define_qtd_series(nivel_de_treinamento)))
     peso = float(input("Peso: "))
     repeticoes = int(input("Repetições: "))
     tonelagem = peso * repeticoes
@@ -35,7 +35,7 @@ while(series_executadas <= calculaSeries(nivel_de_treinamento)):
 
     series_executadas += 1
 
-calculaSeries(nivel_de_treinamento)
+define_qtd_series(nivel_de_treinamento)
 pse = int(input("PSE: "))
 
 #if(__name__ == "__main__"):
